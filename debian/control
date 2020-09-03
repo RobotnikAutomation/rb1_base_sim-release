@@ -1,0 +1,12 @@
+Source: ros-kinetic-rb1-base-sim
+Section: misc
+Priority: optional
+Maintainer: Roberto Guzmán <rguzman@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/rb1_base_sim
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rb1-base-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rb1-base-gazebo, ros-kinetic-rb1-base-sim-bringup
+Description: The rb1_base_sim metapackage
