@@ -1,0 +1,21 @@
+ros-kinetic-rb1-base-purepursuit (1.0.2-1xenial) xenial; urgency=high
+
+
+
+ -- Roberto Guzmán <rguzman@robotnik.es>  Thu, 21 Jul 2016 22:00:00 -0000
+
+ros-kinetic-rb1-base-purepursuit (1.0.1-1xenial) xenial; urgency=high
+
+  * removing robotnik pp planner dependencies
+  * removing robotnik pp planner dependencies
+  * Adding robotnik pp planner dependencies
+  * Adding robotnik pp planner dependencies
+  * Adding robotnik pp planner dependencies
+  * Adding robotnik pp planner dependencies
+  * Edited xml packages and Cmake lists
+  * added packages coming from rb1_sim
+  * Contributors: AliquesTomas, rguzman
+
+ -- Roberto Guzmán <rguzman@robotnik.es>  Wed, 06 Jul 2016 22:00:00 -0000
+
+
