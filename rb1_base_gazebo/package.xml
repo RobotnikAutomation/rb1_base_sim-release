@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+  <name>rb1_base_gazebo</name>
+  <version>1.0.2</version>
+  <description>The rb1_base_gazebo package</description>
+
+   <maintainer email="rguzman@robotnik.es">Roberto Guzmán</maintainer>
+  <maintainer email="rnavarro@robotnik.es">Roman Navarro Garcia </maintainer>
+  <maintainer email="aaliques@robotnik.com">Toni Aliques</maintainer>
+
+  <author email="rguzman@robotnik.es">Roberto Guzmán</author>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/rb1_base_gazebo</url>
+  <url type="repository">https://github.com/RobotnikAutomation/rb1_base_sim</url>
+  <url type="bugtracker">https://github.com/RobotnikAutomation/rb1_base_sim/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>rb1_base_control</run_depend>
+  <run_depend>rb1_base_description</run_depend>
+  <run_depend>rb1_base_pad</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>tf</run_depend>
+
+
+  <export>
+    
+  </export>
+</package>
