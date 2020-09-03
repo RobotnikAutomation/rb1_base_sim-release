@@ -1,0 +1,12 @@
+Source: ros-kinetic-rb1-base-gazebo
+Section: misc
+Priority: optional
+Maintainer: Roberto Guzmán <rguzman@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-diff-drive-controller, ros-kinetic-gazebo9-ros, ros-kinetic-gazebo9-ros-control, ros-kinetic-rb1-base-control, ros-kinetic-rb1-base-description, ros-kinetic-rb1-base-pad, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Homepage: http://wiki.ros.org/rb1_base_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rb1-base-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-diff-drive-controller, ros-kinetic-gazebo9-ros, ros-kinetic-gazebo9-ros-control, ros-kinetic-rb1-base-control, ros-kinetic-rb1-base-description, ros-kinetic-rb1-base-pad, ros-kinetic-rviz, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Description: The rb1_base_gazebo package
